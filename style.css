@@ -384,6 +384,7 @@ main {
     justify-content: center;
     align-items: center;
     border-radius: 8px;
+    border: 1px solid #ffffff !important;
 }
 
 .pagination a:not(.button):hover {
