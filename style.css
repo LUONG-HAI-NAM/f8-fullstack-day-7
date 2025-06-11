@@ -322,11 +322,12 @@ main {
 .course-detail h2:hover {
     color: #b80257;
     cursor: pointer;
-    transition: color 0.5s ease;
+    
 }
 
 .course-detail .desc {
     margin: 20px 0px;
+    line-height: 22px;
 }
 
 
@@ -366,7 +367,7 @@ main {
 
 .pagination .button {
     margin-left: 10px;
-    background-color: #783df0;
+    background-color: #6d33e1;
     border-radius: 8px;
     width: 58px;
 }
@@ -387,12 +388,15 @@ main {
 
 .pagination a:not(.button):hover {
     color: #783df0 !important;
-    border-color: #783df0 !important;
+    border-color: #783feb !important;
+    border: 1px solid #783feb !important;
+    
 }
 
 .pagination .active {
     color: #aeaeae !important;
-    border-color: #783df0 !important;
+    border-color: #0a0a0a !important;
+   
 }
 .clearfix {
     display: flex;
